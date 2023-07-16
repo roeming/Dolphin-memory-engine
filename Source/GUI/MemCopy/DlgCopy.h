@@ -4,7 +4,7 @@
 #include <QDialog>
 #include <QSpinBox>
 #include <qlineedit.h>
-#include "..\GUICommon.h"
+#include "../GUICommon.h"
 #include <QDialogButtonBox>
 #include <qtextedit.h>
 
