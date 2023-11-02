@@ -80,6 +80,9 @@ DlgCopy::DlgCopy(QWidget* parent) : QDialog(parent)
 
   setLayout(mainLayout);
 
+  // Remove `?` button on window
+  setWindowFlags(windowFlags().setFlag(Qt::WindowContextHelpButtonHint, false));
+
   setWindowTitle(tr("Copy Memory Range"));
 
   setDefaults();
